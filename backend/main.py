@@ -31,7 +31,7 @@ sys.path.insert(0, str(PIPELINE_ROOT / "src"))
 from align_faces import align_image  # noqa: E402
 from data import build_transforms  # noqa: E402
 from face_detector import detect_landmarks  # noqa: E402
-from model import DualHeadAgeModel  # noqa: E402
+from model import DualHeadAgeModel  
 
 CHECKPOINTS = [
     PIPELINE_ROOT / "runs" / "resnet50" / "best_model.pt",
